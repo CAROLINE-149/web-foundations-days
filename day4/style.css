@@ -1,0 +1,104 @@
+/*Default light theme colours*/
+:root{
+    --bg-color: #f4f7fb;
+    --text-color: #222222;
+    --card-color: #ffffff;
+    --primary-color: #2563eb;
+    --border-color: #d1d5db;
+}
+
+/* Dark theme colours*/
+body.dark{
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --card-color: #1e1e1e;
+    --primary-color: #60a5fa;
+    --border-color: #444444;
+}
+
+/*General page styling*/
+body{
+    margin: 0;
+    padding:30px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/*Notes container*/
+.card{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+/* Textarea */
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font: inherit;
+    resize: vertical;
+}
+
+/*label*/
+label{
+    display: block;
+    font-weight: bold;
+}
+
+/*counter paragraphs*/
+#char-count, #word-count{
+    font-size: 14px;
+}
+/*Approaching the character limit*/
+.warning {
+    color: orange;
+}
+
+/*Exceeding the character limit*/
+.over{
+    color: red;
+    font-weight: bold;
+}
+
+/*Buttons*/
+.buttons{
+    display:flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+button{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+/* Small-screen layout */
+@media (max-width: 480px) {
+  .card {
+    padding: 16px;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
