@@ -10,7 +10,7 @@ let hasLoadedUsers = false;
 //Display a list of users on the page
 function renderUsers(list){
     //Remove the previously displayed users
-    usersList.replaceChild();
+    usersList.replaceChildren();
 
     //Display a message when no users match
     if(list.length === 0){
