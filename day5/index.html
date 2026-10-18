@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users API</title>
+    <script src="users.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Users</h1>
+        <p>Load and Search users from an API.</p>
+    </header>
+
+    <main>
+        <button id="load-users">Load Users</button>
+
+        <div>
+            <label for="filter-input">Search Users by name:</label>
+            <input type="text" id="filter-input" placeholder="Enter users name">
+        </div>
+
+        <p id="status">Click "Load Users" to get started.</p>
+        <ul id="users-list"></ul>
+    </main>
+</body>
+</html>
