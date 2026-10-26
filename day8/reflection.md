@@ -1,0 +1,9 @@
+# Day 8 Reflection
+
+The most difficult concept in this course was understanding how system architecture, database transactions, and scalability work together. At first, it was difficult to see how a system could handle many users at once without losing data or producing incorrect results. I overcame this by breaking the design into smaller parts: requirements, traffic estimates, API endpoints, database tables, and architecture. Working through the TicketHub seat-booking example helped me understand why database transactions and row locking are important when multiple users try to purchase the same seat.
+
+Based on the feedback I received on my CloudPrep capstone, I would improve **[replace this with the specific area highlighted in your feedback]**. I would make the improvement by reviewing the feedback, identifying the most important issue, and testing the revised feature with real users or realistic scenarios. I have learned that completing a project is not the end of development; feedback and testing are necessary to make a solution more useful and reliable.
+
+Next, I want to learn more about **database transactions, concurrency control, and performance testing**. I would also like to practice using load-testing tools to simulate many users accessing an application at the same time. These skills will help me design applications that are not only functional but also secure, reliable, and capable of growing as the number of users increases.
+
+Overall, this course has helped me understand that good software design requires planning, clear trade-offs, and consideration of what happens when systems are under pressure.
