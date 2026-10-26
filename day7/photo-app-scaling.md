@@ -37,6 +37,12 @@ Average uploads per second = 1,000,000 ÷ 86,400
 
 = **11.57 uploads per second**
 
+Peak uploads per second = Average uploads per second × 5
+
+= 11.57 × 5
+
+= Approximately 57.87 uploads per second
+
 ### Feed Views per Second
 
 Daily feed views = 1,000,000 users × 50 pages
